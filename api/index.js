@@ -58,8 +58,3 @@ app.post('/carregar', async (req, res) => {
     });
   }
 });
-
-app.listen(PORT, () => {
-  console.log(`Servidor rodando em http://localhost:${PORT}`);
-  console.log(`Teste com: curl -X POST http://localhost:${PORT}/upload-to-pcloud -F "file=@p.jpg"`);
-});
