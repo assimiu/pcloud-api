@@ -28,7 +28,7 @@ app.post('/carregar', async (req, res) => {
     // 2. Prepara o formulário diretamente do buffer
     const form = new FormData();
     form.append('auth', 'YKErcXZ8LjuZeNIdydSsIABFNNOd5LfajBIXzmm7');
-    form.append('folderid', '0');
+    form.append('folderid', '18314431194');
     form.append('filename', uniqueName);
     form.append('file', file.data, {
       filename: uniqueName,
